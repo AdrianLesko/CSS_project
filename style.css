@@ -12,7 +12,7 @@ body {
 
 
 header {
-    padding: 2em; 
+    padding: 1em; 
     font-size: 1.4rem;
     background: darkslategrey;
     color: white; 
@@ -49,6 +49,7 @@ nav {
   
     background: #ffffff;
     border-radius: 1rem;
+    padding: 1rem;
 }
 
 
@@ -65,6 +66,9 @@ nav {
 
 
 @media (min-width:700px) {
+    header {
+        padding: 2rem;
+    }
     .main-content {
         display:flex; 
         flex-direction: row;
