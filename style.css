@@ -53,6 +53,7 @@ nav {
 
 
 .sidebar {
+    border-radius:1rem;
     display: flex;
     background-color: #648686;
     color: white; 
@@ -60,4 +61,25 @@ nav {
     flex-wrap: wrap; 
     justify-content: space-around;
    
+}
+
+
+@media (min-width:700px) {
+    .main-content {
+        display:flex; 
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .main-block {
+        padding: 1rem;
+    }
+    .sidebar {
+        padding: 1rem 1rem;
+        display: flex; 
+        flex-flow: column wrap; 
+        align-items: start;
+        justify-content: start;
+        gap: 1.3rem;
+    }
 }
