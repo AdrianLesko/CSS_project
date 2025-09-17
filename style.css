@@ -16,5 +16,24 @@ header {
     background: darkslategrey;
     color: white; 
     text-align: center; 
-    
+
+}
+
+nav {
+    display: flex; 
+    gap: 3rem;
+    justify-content: center; 
+    margin-top: 2rem;
+}
+
+.navlink {
+    color: white; 
+    text-decoration: none; 
+    font-weight: 700;
+
+}
+
+
+.navlink:hover {
+    color: #fbb504;
 }
