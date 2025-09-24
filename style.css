@@ -36,28 +36,38 @@ nav {
 }
 
 
-.navlink:hover:focus {
+.navlink:hover,:focus {
     color: #fbb504;
 }
 
 .main-content {
         padding: 1rem;
-        margin: 1rem;
+        margin: 0.5vw;
+
+}
+
+
+.zvyraznit {
+    font-size: 1.6rem;
+    font-weight: 769;
 }
 
 .main-block {
   
     background: #ffffff;
     border-radius: 1rem;
-    padding: 1rem;
+    padding: 1em;
 }
 
 
 .sidebar {
     border-radius:1rem;
+    padding: 2em 0;
     display: flex;
     background-color: #648686;
     color: white; 
+    font-size: 1.2rem; 
+    text-transform: capitalize;
     font-weight: 700;
     flex-wrap: wrap; 
     justify-content: space-around;
@@ -81,9 +91,10 @@ nav {
     .sidebar {
         padding: 1rem 1rem;
         display: flex; 
-        flex-flow: column wrap; 
+        flex-flow: column; 
         align-items: start;
         justify-content: start;
         gap: 1.3rem;
+
     }
 }
